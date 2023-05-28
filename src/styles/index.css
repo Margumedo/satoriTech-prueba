@@ -10,3 +10,33 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.image-custom{
+    width: 100px;
+    height: 100px;
+}
+
+.color-custom {
+    background-color: #3628d9;
+}
+
+.bg-custom{
+    background-color: #d9d9d9;
+}
+
+.border-custom{
+    border-radius: 25px ;
+}
+
+.text-custom{
+    overflow: hidden;
+    font-size: 0.62rem;
+}
+
+.img:hover{
+    cursor: pointer;
+}
+
+.size-custom{
+    size: 50px;
+}
