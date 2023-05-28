@@ -33,6 +33,11 @@
     font-size: 0.62rem;
 }
 
+.text2-custom{
+    overflow: hidden;
+    font-size: 0.75rem;
+}
+
 .img:hover{
     cursor: pointer;
 }

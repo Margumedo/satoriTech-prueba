@@ -21,7 +21,7 @@ const Modal = ({ character }) => {
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body">
-                            <div className="d-flex justify-content-center border border-danger mb-3">
+                            <div className="d-flex justify-content-center mb-3">
                                 <img src={selectedCharacter?.image} className="" alt="..." />
                             </div>
                             <h6>Name: {selectedCharacter?.name}</h6>
