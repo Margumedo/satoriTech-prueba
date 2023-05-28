@@ -45,3 +45,8 @@
 .size-custom{
     size: 50px;
 }
+
+.div-custom{
+    max-height: 100px;
+    overflow: hidden;
+}

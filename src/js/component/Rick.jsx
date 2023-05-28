@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 
+//import the styles
 import '../../styles/index.css'
+
+//include other components
 import Modal from "./Modal.jsx";
 
 const Rick = () => {
@@ -63,7 +66,7 @@ const Rick = () => {
                                         <div className=" d-flex align-items-center justify-content-center">
                                             <Modal character={character} />
                                         </div>
-                                        <div className="d-flex flex-column justify-content-center">
+                                        <div className="d-flex flex-column justify-content-center div-custom">
                                             <p className="card-text mb-0 ps-2"> <small>Name: {character.name}</small> </p>
                                             <p className="card-text mb-0 ps-2"> <small>Status: {character.status}</small> </p>
                                             <p className="card-text mb-0 ps-2"> <small>Specie: {character.species}</small> </p>
@@ -74,7 +77,7 @@ const Rick = () => {
                                         <p className="card-title text2-custom">Episodios</p>
                                         {character.episode.slice(0, 3).map((item, index) => {
                                             return (
-                                                <a key={`character-episodio${index}`} className="card-text text-white"> <small>{item}</small> </a>
+                                                <a key={`character-episodio${index}`} className="card-text text-white d-flex flex-column"> <small>{item}</small> </a>
                                             );
                                         })}
                                     </div>
